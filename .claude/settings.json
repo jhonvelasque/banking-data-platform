@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(node \"C:\\\\Users\\\\JHONCA~1\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Repos-BK-banking-data-platform\\\\7572b372-4a8a-435e-8d33-30f278fe058d\\\\scratchpad\\\\gen_drawio.js\")",
+      "PowerShell(node \"C:\\\\Users\\\\JHONCA~1\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Repos-BK-banking-data-platform\\\\7572b372-4a8a-435e-8d33-30f278fe058d\\\\scratchpad\\\\gen_drawio.js\"; if \\($?\\) { [xml]$d = Get-Content \"C:\\\\Repos\\\\BK\\\\Project-banca-DA\\\\arquitectura\\\\arquitectura-banca-da.drawio\" -Raw; Write-Output \"XML valido - paginas: $\\($d.mxfile.diagram.Count\\)\" })"
+    ],
+    "additionalDirectories": [
+      "c:\\Repos\\BK\\Project-banca-DA"
+    ]
+  }
+}
